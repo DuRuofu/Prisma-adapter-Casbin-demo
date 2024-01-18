@@ -1,4 +1,4 @@
-# node-casbin入门 (配合Prisma adapter)
+# node-casbin-demo (配合Prisma adapter)
 
 ## 一、casbin是啥？
 
