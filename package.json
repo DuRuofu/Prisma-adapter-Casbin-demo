@@ -1,0 +1,20 @@
+{
+  "name": "prisma-adapter-casbin-demo",
+  "version": "1.0.0",
+  "description": "演示prisma和node-casbin协同工作的demo",
+  "main": "index.js",
+  "scripts": {
+    "demo1": "ts-node-dev  src/demo1/demo.ts",
+    "demo2": "ts-node-dev  src/demo2/demo.ts",
+    "updatadb": "npx prisma migrate dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "casbin": "^5.28.0",
+    "casbin-prisma-adapter": "^1.5.0",
+    "prisma": "^5.8.1",
+    "ts-node-dev": "^2.0.0"
+  }
+}
